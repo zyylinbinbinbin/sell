@@ -1,0 +1,238 @@
+// 修改页面进度条
+#nprogress .bar {
+  height: 4px!important;
+  background-color: #348F6C!important;
+}
+
+// 修改schoolIndex文字提示框
+.el-tooltip__popper.is-dark {
+  width: 200px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+// 修改breadcrumb
+.breadcrumb .el-breadcrumb__item:last-child .el-breadcrumb__inner {
+  color: #333;
+}
+
+.breadcrumb .el-breadcrumb__inner.is-link {
+  color: #b0b0b0;
+  font-weight: 400;
+}
+
+.submission-right {
+  .btn-warp {
+    padding-bottom: 10px;
+  }
+}
+
+.breadcrumb .el-breadcrumb {
+  height: 65px;
+  line-height: 65px;
+}
+
+// 修改diy通用组件下的样式
+.options-main .el-form--label-top .el-form-item__label {
+  line-height: 1;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+}
+
+.options-main .indicator .el-form-item__label {
+  margin-bottom: 0;
+}
+
+.options-main .el-input {
+  width: 400px;
+}
+
+.options-main .el-checkbox,
+.options-main .el-radio {
+  display: block;
+  line-height: 1;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  .el-checkbox__label,
+  .el-radio__label {
+    font-size: 16px;
+  }
+  .el-checkbox__input,
+  .el-radio__input {
+    line-height: 20px;
+  }
+}
+
+.options-main .indicator .el-radio {
+  display: inline;
+  margin-right: 60px;
+}
+
+.options-main {
+  .selfAdd {
+    .el-form-item__label {
+      margin-bottom: 10px;
+    }
+  }
+  #wangeditor, .el-textarea {
+    width: 845px;
+  }
+  .rich-text {
+    line-height: 2;
+    margin-bottom: 80px;
+    h1, h2, h3, h4, h5 {
+      margin-bottom: 10px;
+    }
+  }
+  .upload-warp {
+    line-height: 1;
+    .el-upload-dragger {
+      width: 300px;
+      height: 130px;
+      .el-icon-upload {
+        margin: 20px 0 10px;
+      }
+    }
+  }
+}
+
+.show-rich-text .rich-text {
+  line-height: 2;
+  margin: 40px 0 80px;
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+  }
+}
+
+// 修改富文本层级
+.w-e-menu {
+  z-index: 89!important;
+}
+.w-e-text-container {
+  z-index: 88!important;
+}
+
+// 基础信息展示
+.base-read-warp {
+  .richText-content {
+    .content {
+      h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+}
+
+// 修改专家筛选页面
+.screen-indicator {
+  .submission-active {
+    .el-collapse-item__header {
+      color: $blue;
+    }
+  }
+  .el-collapse-item__header {
+    font-size: 18px;
+  }
+  .el-collapse {
+    border-top: 0;
+  }
+
+}
+
+.screen-indicator {
+  .el-collapse-item__content {
+    .el-checkbox {
+      width: 45%;
+      margin-right: 10px;
+      box-sizing: border-box;
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+  .el-checkbox__label {
+    color: #999;
+  }
+}
+
+//修改submissionMain
+.submission-warp .el-menu {
+  border-right: 0;
+  .el-submenu__title {
+    font-size: 18px;
+  }
+  .el-submenu__icon-arrow {
+    font-size: 18px;
+  }
+  .el-menu-item {
+    font-size: 16px;
+  }
+}
+
+.budget-warp {
+  .table {
+    margin: 20px 0 5px 0!important;
+    min-height: 250px!important;
+  }
+  .price {
+    .el-input-number__decrease, .el-input-number__increase {
+      display: none;
+    }
+    .el-input__inner {
+      padding-left: 10px!important;
+      padding-right: 10px!important;
+    }
+  }
+}
+
+.submission-warp .el-scrollbar__wrap {
+  overflow-x: hidden;
+}
+
+.upload-title {
+  .el-form-item__label {
+    line-height: 23px!important;
+  }
+}
+
+
+// login or register
+.login-main-right-form,
+.reg-main-right-form {
+  .login-code,
+  .reg-code {
+    .el-form-item__content {
+      width: 400px;
+      display: flex;
+    }
+    .el-input__inner {
+      width: 260px;
+    }
+  }
+  .pwd {
+    .el-input__inner {
+      padding-right: 50px;
+    }
+  }
+  .el-input__inner {
+    width: 400px;
+    height: 46px;
+    border-radius: 22px;
+    background-color: transparent;
+    padding-left: 80px;
+    font-size: 18px;
+  }
+}
+
+.el-popper .el-dropdown-menu__item {
+  font-size: 16px;
+}

@@ -1,0 +1,118 @@
+.baiban{
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    }
+.background{
+    padding: 20px 20px 10px 25px;
+    .demo-ruleForm{
+        // line-height: 70px;
+        .form{
+            padding: 15px 0 0 0;
+        }
+        .forms{
+            // padding: 15px 0 0 500px;
+            float: right;
+            margin-top: 15px;
+            .formbutton{
+                padding: 10px 30px;
+            }
+        }
+    }
+    .formbuttons{
+        padding: 27px 40px;
+        margin-left: 20px;
+        background: linear-gradient(-90deg, #FD8817 0%, #FDC743 100%);
+        border-radius: 10px;
+        border: 1px solid #FDC743;
+    }
+}
+
+//项目列表
+.background1{
+    padding: 0 0 20px 0;
+    .modular{
+        display: flex;
+        flex-wrap: wrap;
+        .baiban1{
+            height: 220px;
+            background: #FFFFFF;
+            border-radius: 10px 10px 0 0;
+            margin: 0 0 0 26px;
+            .detailed{
+                display: flex;
+                justify-content: start;
+                .Admins{
+                    margin: 20px 0 20px 30px;
+                }
+                .Admins>span:nth-child(2){
+                    padding-left: 50px;
+                }
+                .Admin{
+                    color: #999999;
+                    font-size: 16px;
+                }
+                .Companyname{
+                    div{
+                        margin: 20px 0 20px 30px;
+                    }
+                    .border1,.border2,.border3{
+                        width: 76px;
+                        height: 26px;
+                        border-radius: 4px;
+                        font-size: 14px;
+                        text-align: center;
+                        line-height: 25px;
+                    }
+                    .border1{
+                        background: #ECF5FF;
+                        border: 1px solid #B3D8FF;
+                        color: #409EFF;
+                    }
+                    .border2{
+                        background: #FDF6EC;
+                        border: 1px solid #F5DAB1;
+                        color: #E6A23C;
+                    }
+                    .border3{
+                        background: #F0F9EB;
+                        border: 1px solid #C2E7B0;
+                        color:#67C23A;
+                    }
+                }
+            }
+            
+            .title{
+                font-size: 20px;
+                font-weight: bold;
+                color: #333333;
+                padding: 20px 20px 0 0;
+                margin-left: 30px;
+            }
+        }
+    }
+    .speed{
+        padding: 0 0 20px 30px;
+    }
+}
+//分页
+.block{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+@import "../Public/defaultCss";
+html,
+body,
+#app,
+.index-warp {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  min-width: 1600px;
+  // overflow: hidden;
+  // min-width: 1600px;
+  background: #F6F6F6;
+}
+.background-main {
+  height: calc(100% - 165px);
+}
+.home-main {
+  height: calc(100% - 100px);
+}
+.background-color{
+  padding: 20px 40px;
+}
+.background{
+  padding: 0 0;
+}
+.el-divider--horizontal{
+	margin: 20px 0;
+}
+.background-main, .home-main {
+  padding-top: 40px;
+  overflow: auto;
+  background-color: #F6F6F6;
+  box-sizing: border-box;
+  .container {
+    width: 1360px;
+    margin: 0 auto 60px;
+    .container-main,
+    .container-content-main {
+      margin-top: 20px;
+      min-height: 600px;
+      background: #fff;
+      box-shadow:0 0 20px 0 rgba(64,158,255,0.1);
+      border-radius:10px;
+    }
+    .container-content-main {
+      margin-top: 0;
+      padding: 30px 60px 50px;
+    }
+  }
+}
+.btn-warp {
+  text-align: center;
+}
+

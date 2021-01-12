@@ -1,0 +1,63 @@
+/* 颜色变量 */
+$blue: #409EFF;
+$darkBlue: #0A75E4;
+$origin: #F49364;
+$hoverBlue: #F8FBFF;
+$hovergreen: #F6FBF9;
+$green: #348f6c;
+
+
+/* flex布局 */
+.u-f,.u-f-ac,.u-f-ajc{
+  display: flex;
+}
+.u-f-ac,.u-f-ajc{
+  align-items: center;
+}
+.u-f-ajc{
+  justify-content: center;
+}
+.u-f-jsb{
+  justify-content: space-between;
+}
+.u-f1{
+  flex: 1;
+}
+.u-f-column{
+  flex-direction: column;
+}
+
+@mixin flex-justify ($type: space-between) {
+  display: flex;
+  justify-content: $type;
+}
+
+@mixin flex-align ($alignType: center) {
+  display: flex;
+  align-items: $alignType;
+}
+
+@mixin flex-justify-align ($type: space-between, $alignType: center) {
+  display: flex;
+  justify-content: $type;
+  align-items: $alignType;
+}
+
+.overflow-space {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.overflow-two {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+
+
